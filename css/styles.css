@@ -18,8 +18,64 @@
     --title-clr: #F9FAF8;
 }
 
+ /*-------------------MAIN HTML-------------------*/
+
 body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
+
+h1 {
+    font-family: var(--ff-main);
+    font-size: var(--fs-hero);
+}
+
+h2 {
+    font-family: var(--ff-main);
+    font-size: var(--fs-info);
+}
+
+h3 {
+    font-family: var(--ff-main);
+    font-size: var(--fs-logo);
+}
+
+p {
+    font-family: var(--ff-main);
+    font-size: var(--fs-secondary);
+}
+
+label {
+    color: var(--info-clr);
+    font-family: var(--ff-main);
+    font-size: var(--fs-logo);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    font-family: var(--ff-main);
+    font-size: var(--fs-secondary);
+}
+
+a:visited {
+    color: var(--info-clr);
+}
+
+ /*-------------------HEADER-------------------*/
+
+.header {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-around;
+    background-color: var(--dbg-clr);
+}
+
+.header-list {
+    display: flex;
+    gap: 1.5rem;
+}
+
