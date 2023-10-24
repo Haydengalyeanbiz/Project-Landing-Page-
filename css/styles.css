@@ -66,7 +66,19 @@ a:visited {
     color: var(--info-clr);
 }
 
-footer 
+footer {
+    height: auto;
+    width: 100%;
+    background-color: var(--dbg-clr);
+}
+
+footer p {
+    margin: 0;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    color: var(--title-clr);
+}
 
  /*-------------------HEADER-------------------*/
 .header {
