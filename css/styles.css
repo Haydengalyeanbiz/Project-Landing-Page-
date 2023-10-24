@@ -27,8 +27,10 @@ body {
 }
 
 h1 {
+    margin: 0;
     font-family: var(--ff-main);
     font-size: var(--fs-hero);
+    color: var(--title-clr);
 }
 
 h2 {
@@ -44,6 +46,7 @@ h3 {
 p {
     font-family: var(--ff-main);
     font-size: var(--fs-secondary);
+    color: var(--info-clr);
 }
 
 label {
@@ -64,14 +67,17 @@ a:visited {
 }
 
  /*-------------------HEADER-------------------*/
-
 .header {
-    height: auto;
-    width: 100vw;
-    display: flex;
-    padding: 1rem 2rem;
-    justify-content: space-around;
     background-color: var(--dbg-clr);
+    height: auto;
+    width: 100dvw;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-weight: 700;
 }
 
 .header-list {
@@ -79,3 +85,41 @@ a:visited {
     gap: 1.5rem;
 }
 
+/*-------------------MASTHEAD-------------------*/
+.masthead-container {
+    height: auto;
+    width: 100dvw;
+    background-color: var(--dbg-clr);
+    padding: 6rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.masthead-content {
+    height: auto;
+    max-width: 24%;
+}
+
+.masthead-btn {
+ border: none;
+ border-radius: 8px;
+ font-size: var(--fs-logo);
+ font-weight: 700;
+ background-color: var(--btn-clr);
+ color: var(--title-clr);
+ height: 2.5rem;
+ width: 8rem;
+ cursor: pointer;
+}
+
+.masthead-btn:hover {
+    background-color: var(--title-clr);
+    color: var(--dbg-clr);
+    transition: all .5s ease-in-out;
+}
+
+.masthead-img {
+    height: auto;
+    width: 30%;
+ }
