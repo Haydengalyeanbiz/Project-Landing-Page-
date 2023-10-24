@@ -123,3 +123,37 @@ a:visited {
     height: auto;
     width: 30%;
  }
+
+ /*-------------------CARD-SECTION-------------------*/
+.card-section {
+    padding: 2rem 0 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content {
+    display: flex;
+    gap: 6rem;
+    padding: 2rem 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.card p {
+    max-width: 10rem;
+    color: black;
+    text-align: center;
+}
+
+.box {
+    height: 10rem;
+    width: 10rem;
+    border: solid 2px var(--btn-clr);
+    border-radius: 12px;
+}
