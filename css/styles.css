@@ -66,6 +66,8 @@ a:visited {
     color: var(--info-clr);
 }
 
+footer 
+
  /*-------------------HEADER-------------------*/
 .header {
     background-color: var(--dbg-clr);
@@ -185,3 +187,44 @@ a:visited {
     font-size: var(--fs-info);
     margin: 0;
 }
+
+/*-------------------CALL-TO-ACTION-------------------*/
+
+.calltoaction {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem 0;
+    border-radius: 12px;
+    background-color: var(--btn-clr);
+    height: auto;
+    width: 60%;
+}
+
+.cta-btn {
+    height: 2rem;
+    width: 8rem;
+    border: solid 2px var(--title-clr);
+    border-radius: 8px;
+    background-color: var(--btn-clr);
+    color: var(--title-clr);
+}
+
+.cta-content h3 {
+    color: var(--title-clr);
+}
+
+.cta-content p {
+    color: var(--title-clr);
+}
+
